@@ -1,0 +1,44 @@
+{
+  "enabled": false,
+  "instalments": [
+    {
+      "partialPayments": 2,
+      "enabled": false,
+      "daysBetweenPayments": 30,
+      "percents": [50, 50],
+      "title": {
+        "en": "Pay in 2 instalments with credit card",
+        "fr": "Payer en 2 fois par carte bancaire"
+      },
+      "logoFilename": "2x.svg",
+      "minAmount": 150,
+      "maxAmount": 2000
+    },
+    {
+      "partialPayments": 3,
+      "enabled": false,
+      "daysBetweenPayments": 30,
+      "percents": [33, 33, 34],
+      "title": {
+        "en": "Pay in 3 instalments with credit card",
+        "fr": "Payer en 3 fois par carte bancaire"
+      },
+      "logoFilename": "3x.svg",
+      "minAmount": 150,
+      "maxAmount": 2000
+    },
+    {
+      "partialPayments": 4,
+      "enabled": false,
+      "daysBetweenPayments": 30,
+      "percents": [25, 25, 25, 25],
+      "title": {
+        "en": "Pay in 4 instalments with credit card",
+        "fr": "Payer en 4 fois par carte bancaire"
+      },
+      "logoFilename": "4x.svg",
+      "minAmount": 150,
+      "maxAmount": 2000
+    }
+  ]
+}

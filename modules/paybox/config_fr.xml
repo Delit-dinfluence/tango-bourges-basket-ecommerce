@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>paybox</name>
+    <displayName><![CDATA[Up2pay e-Transactions Cr&eacute;dit Agricole]]></displayName>
+    <version><![CDATA[6.0.1]]></version>
+    <description><![CDATA[Solution de paiement &agrave; distance dans un environnement s&eacute;curis&eacute; du Cr&eacute;dit Agricole. ]]></description>
+    <author><![CDATA[Cr&eacute;dit Agricole]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

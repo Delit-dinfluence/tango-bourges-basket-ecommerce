@@ -1,0 +1,90 @@
+.up2pay-contracts {
+  border: 1px solid #d3d8db;
+  padding: 10px;
+  border-radius: 4px;
+
+  .contract {
+    padding: 5px 5px;
+
+    &.selectable {
+      display: none;
+    }
+
+    .column-identifier {
+      width: 150px;
+      align-items: flex-end;
+      justify-content: center;
+      font-weight: bold;
+      flex-direction: column;
+      padding: 10px 0;
+
+      p {
+        padding-bottom: 10px;
+      }
+
+      span {
+        text-align: right;
+      }
+    }
+
+    .column-config {
+      flex: 1;
+      justify-content: space-around;
+      align-items: center;
+
+      > div {
+        padding: 10px 0;
+      }
+
+      p {
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+
+      .cell-logo {
+        .up2pay-upload + label {
+          text-align: center;
+          padding-top: 0;
+          padding-left: 0;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        img {
+          max-width: 120px;
+          max-height: 30px;
+          display: block;
+          margin: 5px auto;
+        }
+      }
+
+      .span.switch {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.up2pay-instalment-tabs li {
+  &.green {
+    a {
+      color: green;
+    }
+  }
+
+  &.darkgrey {
+    a {
+      color: darkgrey;
+    }
+  }
+}
+
+.preview-logo {
+  padding-top: 5px;
+  padding-left: 5px;
+  vertical-align: baseline;
+  max-height: 30px;
+  max-width: 150px;
+}

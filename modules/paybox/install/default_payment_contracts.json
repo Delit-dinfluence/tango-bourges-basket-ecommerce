@@ -1,0 +1,121 @@
+[
+  {
+    "identifier": "CB VISA MASTERCARD",
+    "cardType": "CB",
+    "paymentType": "CARTE",
+    "isSelectable": false,
+    "enabled": true,
+    "oneClickEnabled": false,
+    "oneClickAvailable": true,
+    "forceRedirect": false,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with credit card",
+      "fr": "Payer par carte bancaire"
+    },
+    "logoFilename": "CB_VISA_MC.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "AMERICAN EXPRESS",
+    "cardType": "AMEX",
+    "paymentType": "CARTE",
+    "isSelectable": true,
+    "enabled": false,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": false,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with AMEX",
+      "fr": "Payer avec AMEX"
+    },
+    "logoFilename": "AMEX.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "PAYPAL",
+    "cardType": "PAYPAL",
+    "paymentType": "PAYPAL",
+    "isSelectable": true,
+    "enabled": false,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": true,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with Paypal",
+      "fr": "Payer avec Paypal"
+    },
+    "logoFilename": "PAYPAL.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "PAYLIB",
+    "cardType": "PAYLIB",
+    "paymentType": "WALLET",
+    "isSelectable": false,
+    "enabled": true,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": true,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with Paylib",
+      "fr": "Payer avec Paylib"
+    },
+    "logoFilename": "PAYLIB.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "DINERS",
+    "cardType": "DINERS",
+    "paymentType": "CARTE",
+    "isSelectable": true,
+    "enabled": false,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": false,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with Diners",
+      "fr": "Payer avec Diners"
+    },
+    "logoFilename": "DINERS.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "JCB",
+    "cardType": "JCB",
+    "paymentType": "CARTE",
+    "isSelectable": true,
+    "enabled": false,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": false,
+    "displayType": "redirect",
+    "title": {
+      "en": "Pay with JCB",
+      "fr": "Payer avec JCB"
+    },
+    "logoFilename": "JCB.svg",
+    "minAmount": 0
+  },
+  {
+    "identifier": "OTHER",
+    "cardType": "",
+    "paymentType": "",
+    "isSelectable": false,
+    "enabled": false,
+    "oneClickEnabled": false,
+    "oneClickAvailable": false,
+    "forceRedirect": true,
+    "displayType": "redirect",
+    "title": {
+      "en": "Secured payment by Credit Agricole",
+      "fr": "Paiement sécurisé via Crédit Agricole"
+    },
+    "logoFilename": "CB_VISA_MC.svg",
+    "minAmount": 0
+  }
+]

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*
+* 2021 Crédit Agricole
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License 3.0 (AFL-3.0).
+* It is also available through the world-wide-web at this URL: https://opensource.org/licenses/AFL-3.0
+*
+* @author    PrestaShop / PrestaShop partner
+* @copyright 2020-2021 Crédit Agricole
+* @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*
+*/
+#checkout-payment-step .up2pay-iframe.disabled iframe {
+  display: none;
+}
+
+#module-paybox-storedcards #stored-cards {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#module-paybox-storedcards #stored-cards .stored-card {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+#module-paybox-storedcards #stored-cards .stored-card .card-content {
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  height: 160px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #257bae;
+  background: -moz-linear-gradient(180deg, #257bae 23%, #166493 63%, #0a527d 100%);
+  background: -webkit-linear-gradient(180deg, #257bae 23%, #166493 63%, #0a527d 100%);
+  background: linear-gradient(180deg, #257bae 23%, #166493 63%, #0a527d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#257bae", endColorstr="#0a527d", GradientType=1);
+  color: white;
+}
+#module-paybox-storedcards #stored-cards .stored-card .card-content img {
+  width: 40px;
+}
+#module-paybox-storedcards #stored-cards .stored-card .card-content .card-details {
+  display: flex;
+  font-family: monospace;
+  justify-content: space-between;
+}
+#module-paybox-storedcards #stored-cards .stored-card .card-action {
+  text-align: center;
+}
+#module-paybox-storedcards #stored-cards .stored-card .card-action span {
+  vertical-align: bottom;
+}

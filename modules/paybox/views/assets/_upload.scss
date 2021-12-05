@@ -1,0 +1,33 @@
+.up2pay-upload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.up2pay-upload + label {
+  width: 120px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  color: #009597;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.up2pay-upload:focus + label,
+.up2pay-upload.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.up2pay-upload:focus + label,
+.up2pay-upload.has-focus + label,
+.up2pay-upload + label:hover {
+  color: #005f61;
+}

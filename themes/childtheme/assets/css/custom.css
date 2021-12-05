@@ -1,0 +1,176 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ 
+body, #wrapper{
+    background: #fff;
+ }
+ i{
+    color: #fff;
+}
+.flex{
+    display: flex;
+}    
+#header
+{
+    background: #e94e1b;
+    padding-top: 20px;
+}
+#header .header-nav{
+    border: none;
+    margin-bottom: 10px;
+}
+.header-nav h1{
+    color: #fff;
+    text-transform: uppercase;
+   
+    font-weight: bold;
+    font-size: 20px;
+}
+.pos_logo{
+    bottom: 30px;
+    left: 0px;
+    flex: 2;
+    margin-right: 90px;
+} 
+.float_right{
+    float: right;
+}
+.menu{
+    flex: 6;
+    margin-top: 40px;
+}
+#mobile_top_menu_wrapper{
+    background: #e94e1b;
+}
+#search_widget input[type="text"]{
+    background: #e94e1b;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+}
+#search_widget input[type="text"]::placeholder{
+    color: #fff;
+}
+.bandeau_billeterie{
+    width: 100%;
+    background: #1d1d1b;
+    text-align: center;
+    padding: 10px 0;
+}
+.bandeau_billeterie p:before
+{
+    background-image: url('./img/tickets.svg') no-repeat;
+}
+.bandeau_billeterie p{
+    font-size: 20px;
+}
+.orange{
+    color: #e94e1b;
+}
+.container-button{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.container-button a{
+    color: #fff !important;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+   
+}
+#header .header-top a[data-depth="0"]{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+#header .header_top a[data-depth="0"]:hover{
+    color:#1d1d1b;
+}
+.cart-products-count{
+    position: absolute;
+    line-height: 12px;
+    min-width: 12px;
+    padding: 0 2px;
+    background: #e0525c;
+    color: #fff;
+    font-size: 10px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+    right: 8px;
+}
+.top-menu{
+    display: flex;
+}
+.top-menu .popover{
+    background: #1d1d1b;
+}
+.top-menu .popover li a{
+    color: #fff;
+}
+#_desktop_user_info, #_desktop_cart
+{
+    float: right;
+    margin-top: 40px;
+}
+/* Pied de page */
+#footer
+{
+    background: #1d1d1b;
+}
+#footer .h3{
+    color: #e94e1b;
+}
+.footer-container li a
+{
+    color: #fff;
+}
+.text-reassurance{
+    display: block;
+}
+.categorie-home:before
+{
+    content:"";
+    background:#f04f2a;
+    height: 250px;
+    width:100%;
+    position: absolute;
+}
+.categorie-home h3{
+    color:#fff;
+    font-size:32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 600px)
+{
+    .categorie-home
+    {
+        background:#f04f2a;
+    }
+}
+.home-picture{
+    margin-top: -200px;
+}
+.img-home{
+    width:100%;
+}
+.cart-grid-right{
+    background:#f1f2f2;
+}
+.btn-panier{
+    border:1px solid #f04f2a;
+    padding: 10px;
+    color:#f04f2a;
+    font-weight: bold;
+    font-size:18px;
+}
+
+
